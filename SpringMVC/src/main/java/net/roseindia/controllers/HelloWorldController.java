@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloWorldController {
 	@RequestMapping("/helloworld")
 	   public ModelAndView helloWord(){
-		  System.out.println("ZZZZZs1");
 	      String message = "Hello World, Spring 3.0!";
 		  return new ModelAndView("helloworld", "message",message);
 	   }
